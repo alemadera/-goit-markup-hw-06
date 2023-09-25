@@ -249,6 +249,10 @@ letter-spacing: 0.03em;
   outline: none;
 }
 
+.filter-item .button-current{
+  background-color: var(--primary-color);
+  color: var(--detail-color)
+}
 .portafolio-title{
   font-size: 18px;
   font-weight: 700;
@@ -416,7 +420,6 @@ letter-spacing: 0.03em;
   display: flex;
   flex-direction: column;
   align-items: start;
-  padding-left: 216px;
 }
 
 .footer-hero .footer-list{
